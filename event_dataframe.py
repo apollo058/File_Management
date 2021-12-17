@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 def getHoliday(year: int) -> pd.DataFrame:
     url = 'http://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo'
-    api_key_utf8 = '%2FrPl8JN3%2F4TW6n9heFnxJEnnKyNdvE%2F6bOqtGYAA18o%2BMmMpYxSfSEQqZJDzPuQ9ncTYDU52Do7LQUn33HFsrg%3D%3D'
+    api_key_utf8 = 'key'
     api_key_decode = parse.unquote(api_key_utf8)
 
     params ={
